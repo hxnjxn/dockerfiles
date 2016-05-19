@@ -5,4 +5,4 @@ WORKDIR /root
 RUN git clone https://github.com/nnewsom/webbies.git
 WORKDIR /root/webbies
 RUN pip install -r requirements
-CMD ["./fdb.py]
+CMD ["/bin/bash]
