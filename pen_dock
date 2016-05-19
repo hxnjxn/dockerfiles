@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+MAINTAINER jackson
+
+WORKDIR /opt/
+
+RUN apt-get update && upgrade
